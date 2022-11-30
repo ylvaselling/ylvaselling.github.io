@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Ylva Selling Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+
+  <!-- jQuery library -->
+  <script
+    src="https://code.jquery.com/jquery-3.3.1.js"
+    integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+    crossorigin="anonymous">
+  </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+
+  <!-- Javascript src-->
+  <script type="text/javascript" src="index.js"></script>
+
+  <!-- Google fonts -->
+ <link href="https://fonts.googleapis.com/css?family=Montserrat:200,200i&display=swap" rel="stylesheet">
+ <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+</head>
+
+<body onload="loadDoc()">
+
+<div id="page">
+
+<div id="sidebar">
+  <div id="titlediv">
+    <ul>
+      <li>
+        <h1 id="title"><a href="index.html">Ylva Selling</a></h1>
+      </li>
+      <li>
+        <h3 id="portfolio"><a href="index.html">Portfolio</a></h3>
+      </li>
+    </ul>
+  </div>
+    <div id="dropdown">
+      <button class="dropbtn" onclick=toggleMenu()><i class="fa fa-bars"></i></button>
+      <div id="dropdown-content">
+        <ul>
+          <li>
+            <h3 class="link" onclick="displayProject('0'); toggleMenu()">About me</button>
+          </li>
+          <li>
+            <button onclick="appendData('all'); toggleMenu()"><h3 id="projectBtn">Projects</h3></button>
+          </li>
+          <li>
+              <!-- Menu to toggle visibility for projects -->
+              <li>
+                <button id="Programming" class="category" onclick="appendData('Programming'); toggleMenu()">Programming</button>
+              </li>
+              <li>
+                <button id="3D-datorgrafik" class="category" onclick="appendData('3D-graphics'); toggleMenu()">3D-graphics</button>
+              </li>
+              <li>
+                <button id="Spel" class="category" onclick="appendData('Games'); toggleMenu()">Games</button>
+              </li>
+              <li>
+                <button id="Design" class="category" onclick="appendData('Design'); toggleMenu()">Design</button>
+              </li>
+              <li>
+                <button id="Simulation" class="category" onclick="appendData('Simulation'); toggleMenu()">Simulation</button>
+              </li>
+          </li>
+          <li>
+            <h3 class="link"><a href="https://www.linkedin.com/in/ylvaselling/Contact" target="_blank">Contact me!</a></h3>
+          </li>
+
+        </ul>
+      </div>
+    </div>
+</div>
+<!-- Display Area-->
+<div id="main">
+</div>
+
+</div>
+
+</body>
+</html>

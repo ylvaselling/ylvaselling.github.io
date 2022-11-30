@@ -1,0 +1,194 @@
+[
+  {
+    "id": "0",
+    "title": "About me",
+    "description": "",
+    "text": "Currently I am studying Master of Science in Media Technology and Engineering at Linköping University. In my free time I like to have some projects of my own, usually in 3D-graphics or programming. I have also been involved in the student organisations. Other big interests of mine are hiking, climbing and spending time with friends. :-)",
+    "class": [],
+    "imageUrlThumbnail": "img/about.jpg",
+    "imageUrl": "img/about.jpg"
+  },
+  {
+    "id": "1",
+    "title": "2D puzzle game in Unity",
+    "description": "In this game the user plays a hero that is going to resque a dragon from an evil princess.",
+    "text": "The game was made with Unity and C# and the design was made in Illustrator and Photoshop.",
+    "class": ["Games", "Programming", "Design"],
+    "imageUrlThumbnail": "img/2Dgamethumbnail2.jpg",
+    "imageUrl": "img/2Dgame.png"
+  },
+  {
+    "id": "2",
+    "title": "Lego database website",
+    "description": "This website was created in an introductory course of web programming. The website has access to a database of Lego pieces and allows the user to display the data in various ways.",
+    "text": "The website was programmed in HTML, CSS, Javascript and MySQL.",
+    "class": ["Programming", "Design"],
+    "imageUrlThumbnail": "img/legothumb.png",
+    "imageUrl": "img/lego.png"
+
+  },
+  {
+    "id": "3",
+    "title": "Fishy Clicky - a Unity game",
+    "description": "Fishy Clicky is a simple mobile game which was developed in a course with focus of UX. During the development the game was user tested multiple times to make it as user-friendly as possible.",
+    "text": "The game was developed in Unity and C# and the design was made in Illustrator and Photoshop. The aim of the game is to click the fish as fast as possible to make it explode.",
+    "class": ["Games", "Programming"],
+    "imageUrlThumbnail": "img/fishythumbnail.jpg",
+    "imageUrl": "img/fishyclicky.jpg"
+
+  },
+  {
+    "id": "4",
+    "title": "3D-model",
+    "description": "This 3D-model was modelled and animated in Blender.",
+    "text": "The model has a walking cycle and an idle cycle.",
+    "class": ["3D-graphics"],
+    "imageUrlThumbnail": "img/animation.png",
+    "imageUrl": "img/animationheader.png"
+  },
+  {
+    "id": "5",
+    "title": "3D-printed figure",
+    "description": "This figure was modelled in Blender and then printed in a 3D-printer.",
+    "text": "The modelling was an attempt to learn the sculpt mode in Blender. The model is manifold to enable it to be 3D-printed.",
+    "class": ["3D-graphics"],
+    "imageUrlThumbnail": "img/3Dmodel.jpg",
+    "imageUrl": "img/3Dmodel.jpg"
+  },
+  {
+    "id": "6",
+    "title": "Automatic backing sound website",
+    "description": "This website uses the computer's microphone and detects pitch. The website then plays backing music that harmonizes with the found pitch.",
+    "text": "This project was created in a course of sound physics and the algorithm makes use of Fourier transform to detect the pitches in the incoming sound. Furthermore, another algorithm is used to detect the keynote. After that, the program chooses between four different chords to play from.",
+    "class": ["Programming"],
+    "imageUrlThumbnail": "img/ljudthumb.png",
+    "imageUrl": "img/ljud.png"
+  },
+  {
+    "id": "7",
+    "title": "3D-environment in Unreal Engine",
+    "description": "This 3D-environment features an floating island where the sun sets and rises and soothing music is played. During the night there are countless starts and one can always open a cold beer.",
+    "text": "This project was developed in Unreal Engine for a course in 3D-graphics. The sky was programmed from an image where one column of the image was projected onto a sphere that the sky consisted of. The column changed with time to create the effect of the changing sky. The tree, beer and island was modeled in Blender and the ground and grass was modeled in Unreal Engine and animated there as well, along with the leaves of the tree.",
+    "class": ["3D-graphics", "Games", "Design"],
+    "imageUrlThumbnail": "img/island.png",
+    "imageUrl": "img/malseyheader.jpg"
+  },
+  {
+    "id": "8",
+    "title": "Portfolio website",
+    "description": "The portfolio website features minimalistic design and is responsive.",
+    "text": "The website is written in HTML, CSS and javascript. The idea of the program structure was that it should be easy to add new projects and categories. Therefore all data is read from a json-file. The website doesn't have to be reloaded any point - all content is dynamically appended to the DOM in javascript. Furthermore, the website is completely responsive and offers a different layout for smaller screens.",
+    "class": ["Design", "Programming"],
+    "imageUrlThumbnail": "img/portfoliothumb.png",
+    "imageUrl": "img/portfolioheader.png"
+  },
+  {
+    "id": "9",
+    "title": "Simulation of clockwork",
+    "description": "This physics simulation makes use of numerical solutions in order to approximate partial differential equations.",
+    "text": "The numerical solution used was the Euler method and the project was developed in a course of modelling and simulation. The clockwork uses physical equations for pendulums, as well as for moments of inertia for the cogs. When the weight that is driving the clockwork reaches the floor the clock stops - just as a real clock would.",
+    "class": ["Programming", "3D-graphics", "Simulation"],
+    "imageUrlThumbnail": "img/mosthumb.jpg",
+    "imageUrl": "img/mos.jpg"
+  },
+  {
+    "id": "10",
+    "title": "Multiplayer mobile game for dome theater",
+    "description": "This project was developed as a bachelor project for the Visualization Centre in Norrköping. The visitors of the dome theatre can play this fighting game on their smartphones before a movie starts.",
+    "text": "The game was written in C++ with the libraries OpenGL, glm, glew, glfw and SGCT ('Simple graphics clustering') which projects 3D-environments onto a dome screen. The user connects to a server which allows him/her to see an avatar on the dome screen. The user can then move the avatar, choose different weapons and attack other players. A highschore is displayed on a part of the screen. The game uses a combination of 2D- and 3D-graphics.",
+    "class": ["Programming", "3D-graphics", "Games"],
+    "imageUrlThumbnail": "img/Domegame.jpg",
+    "imageUrl": "img/Domegame.jpg"
+  },
+  {
+    "id": "11",
+    "title": "Drone defense system for airports",
+    "description": "During the summer 2019 I was a project manager at SAAB for a project that developed a defense system for airports for intruding drones.",
+    "text": "The role consisted of leading a team of 15 summer interns through a process of developing and implementing a concept. The system consisted of a few subsystems: an image processing unit, a graphical user interface, a navigation system for the drone and a mechanical system for the defense mechanism.",
+    "class": ["Programming"],
+    "imageUrlThumbnail": "img/dronethumb.jpg",
+    "imageUrl": "img/drone.jpg"
+  },
+  {
+    "id": "12",
+    "title": "Monte Carlo raytracer",
+    "description": "The raytracer simulates light in a room with diffuse, specular and transparent objects.",
+    "text": "This raytracer was written in C++ and supports Whitted and Monte Carlo raytracing, as well as diffuse, specular and transparent surfaces. Rays are shot from the eye through a pixel in the camera plane and then the ray bounce around in the scene until it is terminated. The Monte Carlo raytracer makes use of a probability based method, the Monte Carlo method, to solve the rendering equation. The Monte Carlo method is used to simulate soft indirect light. Furthermore, Whitted raytracing is used to simulate transparent and specular surfaces. To reduce noise, supersampling and anti-aliasing was used. To minimise artefacts, a rays are terminated on a random basis which is called 'Russian roulette'.",
+    "class": ["Programming", "3D-graphics", "Simulation"],
+    "imageUrlThumbnail": "img/raytracer.png",
+    "imageUrl": "img/raytracer.png"
+  },
+  {
+    "id": "13",
+    "title": "Citrus shader",
+    "description": "This shader is written in OSL and simulates a citrus peel and flesh.",
+    "text": "In order to achive the cloves in the flesh, a sinus function was used. The images are rendered in 3DsMax.",
+    "class": ["Programming", "3D-graphics"],
+    "imageUrlThumbnail": "img/orangespreview.jpeg",
+    "imageUrl": "img/orangesheader.jpeg"
+  },
+  {
+    "id": "14",
+    "title": "Terragen mountain",
+    "description": "This mountain was generetad in Terragen.",
+    "text": "",
+    "class": ["3D-graphics"],
+    "imageUrlThumbnail": "img/terragen.jpeg",
+    "imageUrl": "img/terragen.jpeg"
+  },
+  {
+    "id": "15",
+    "title": "React Native app with wishlist and carousel",
+    "description": "This app was created in React Native and features a minimal SDK.",
+    "text": "The app features two components, a carousel and a wishlist. These can be used independently of each other. The user can specify how many items the carousel should contain and if carousel should feature a star button or not.",
+    "class": ["Programming","Design"],
+    "imageUrlThumbnail": "img/reactapp.png",
+    "imageUrl": "img/reactapp.png"
+  },
+  {
+    "id": "16",
+    "title": "Procedurally generated romanesco broccoli",
+    "description": "This plugin was written in python and generates a romanesco broccoli object.",
+    "text": "The python plugin samples a logarithmic spiral, often called the 'golden spiral', and creates cones that are placed on this spiral. The cones are scaled accordingly and then placed on the surface of a larger base cone with matrix transformations. This creation of cones is iterated two times to generate this image.",
+    "class": ["Programming","3D-graphics"],
+    "imageUrlThumbnail": "img/romanescopreview.png",
+    "imageUrl": "img/romanescoheader.png"
+  },
+  {
+    "id": "17",
+    "title": "GPU accelerated ray tracer",
+    "description": "In this project, CUDA was used to parallelize ray tracing.",
+    "text": "In a way to create better performance than the previous ray tracer, CUDA was used for GPU acceleration. The focus of the project was to make the ray tracer fast and perform in real time, a goal which was achieved as the image above uses 2048 samples per pixels, and the user can move around in the scene in real time. The ray tracer itself is simple and only uses only perfectly diffuse materials and a few bounces before the ray is terminated.",
+    "class": ["Programming","3D-graphics", "Simulation"],
+    "imageUrlThumbnail": "img/cudaraytracer.jpg",
+    "imageUrl": "img/cudaraytracer_large.png"
+  },
+  {
+    "id": "18",
+    "title": "Computer vision tracking project",
+    "description": "In this project, computer vision techniques was used to track humans on surveillance cameras.",
+    "text": "This program was written in C++ to enable real time tracking, and OpenCV was used as a library. To determine foreground and background we used a Gaussian Mixture Model. A simple implementation of occlusion management which was based on the motion vectors of the objects was also implemented.",
+    "class": ["Programming"],
+    "imageUrlThumbnail": "img/trackingproject_small.png",
+    "imageUrl": "img/trackingproject.png"
+  },
+  {
+    "id": "19",
+    "title": "Computer vision 3D-reconstruction project",
+    "description": "In this project, computer vision techniques was used reconstruct a 3D model from a collection of photographs.",
+    "text": "This program was written in python with the use of OpenCV-function solvePnPRansac. The camera's relative poses were determined with PNP and RANSAC. After each image had been added, a bundle adjustment was carried out to minimize errors. The  normals of each sample point were calculated depending on its neighbours and the model was visualized with Screened Poisson Surface Reconstruction.",
+    "class": ["Programming"],
+    "imageUrlThumbnail": "img/3drecon.jpg",
+    "imageUrl": "img/3drecon.jpg"
+  },
+  {
+    "id": "20",
+    "title": "LiU Game Awards 2020 Winner Game",
+    "description": "The game is called Get Wrecked Insect! and uses face tracking and augmented reality for the gameplay.",
+    "text": "The player plays a chameleon which eats insects by opening his/her mouth to launch the chameleon tongue. A Boid simulation was used for the insect movements. The gameplay is to eat the right combination of insects sufficiently fast. The game was developed in Unity for iOS and utilizes the augmented reality kit called ARKit. It uses the depth camera and Apple A12X chip for neural networks that was launched for iPad Pro and iPhone X which enables robust face tracking in real time. ",
+    "class": ["Programming", "Design", "3D-graphics", "Simulation"],
+    "imageUrlThumbnail": "img/getwrecked_tall.png",
+    "imageUrl": "img/getwrecked_wide.png",
+    "videoUrl": "https://www.youtube.com/embed/Nt-Oh2yAy3s"
+  }
+]

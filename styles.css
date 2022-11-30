@@ -1,0 +1,311 @@
+
+/*Small screens*/
+@media screen and (max-width: 1200px) {
+  a {
+    text-decoration: none;
+  }
+  .backBtn {
+    padding-top: 3vw;
+    padding-bottom: 3vw;
+  }
+  button:hover, button:active  {
+    text-decoration: line-through;
+  }
+  a:onclick {
+    text-decoration: line-through;
+  }
+  #dropdown-content {
+    display: none;
+  }
+  .dropbtn {
+    width: 10vw;
+    height:10vw;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    margin-top: 20px;
+    margin-right: 20px;
+  }
+  #projectCards {
+    display: inline-grid;
+    grid-gap: 5vw;
+    grid-template-columns: 100%;
+  }
+  .projectCard {
+    width: 95vw;
+    height: 95vw;
+    text-align: left;
+    color: white;
+    position: relative;
+    animation: slide-up .5s ease-in-out;
+	margin: 0 auto;
+  }
+  .projectImage {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+  .textDiv {
+    bottom: 0px;
+    background-color: black;
+    color: white;
+    opacity: 0.8;
+    transition: .5s ease;
+    width: inherit;
+    position: absolute;
+    top: 70%;
+  }
+  #sidebar {
+    color: black;
+    background-color: white;
+    margin-bottom: 0px;
+    width: 100vw;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    overflow-x: hidden;
+    padding-top: 0px;
+  }
+  #main {
+    margin-top: 20vw;
+    margin-left: 0vw;
+  }
+  .projectDiv {
+    margin-top: 5vw;
+	width: 95vw;
+	margin: 0 auto;
+  }
+  h1 {
+    margin-top: 3vw;
+    margin-bottom: 3vw;
+  }
+  h3 {
+    margin-top: 3vw;
+    margin-bottom: 3vw;
+  }
+  .category {
+    margin: 1vw;
+  }
+  #portfolio {
+    margin-top: 0px;
+    margin-bottom: 2vw;
+  }
+  /*Font sizes, responsive*/
+  h1 {
+    font-size: 7vw;
+  }
+  h3 {
+    font-size: 5vw;
+  }
+  p {
+    font-size: 5vw;
+  }
+  button {
+    font-size: 5vw;
+  }
+  iframe {
+    width: 100%;
+  }
+}
+
+/*Medium to large screens*/
+@media screen and (min-width: 1201px) {
+  .projectDiv {
+    margin-right: 1vw;
+  }
+  a {
+    text-decoration: none;
+  }
+  button {
+    text-decoration: none;
+  }
+  .dropbtn {
+    display: none;
+  }
+  #dropdown-content {
+    display: block;
+  }
+  #projectCards {
+    display: inline-grid;
+    grid-row-gap: 1vw;
+    grid-template-columns: 33% 33% 33%;
+  }
+  .projectCard {
+    width: 25vw;
+    height: 25vw;
+    text-align: left;
+    color: white;
+    position: relative;
+    animation: slide-up .5s ease-in-out;
+  }
+  .projectImage {
+    height: 25vw;
+    width: 25vw;
+    object-fit: cover;
+  }
+  .textDiv {
+    bottom: 0px;
+    background-color: black;
+    color: white;
+    opacity: 0.0;
+    transition: .5s ease;
+    width: inherit;
+    position: absolute;
+    top: 70%;
+  }
+  .projectCard:hover .textDiv {
+    opacity: 0.8;
+  }
+  .projectPageImageDiv {
+    width: 100%;
+  }
+  .backBtn {
+    padding-top: 1vw;
+    padding-bottom: 1vw;
+  }
+  #sidebar {
+    color: black;
+    background-color: white;
+    height: 100%;
+    margin-bottom: 3rem;
+    width: 20vw;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+  }
+  #main {
+    margin-left: 20vw; /* Same as the width of the sidenav */
+  }
+  button:hover {
+    text-decoration: line-through;
+    cursor: pointer;
+  }
+  a:hover {
+    text-decoration: line-through;
+    cursor: pointer;
+  }
+  h1 {
+    margin-top: 1vw;
+    margin-bottom: 1vw;
+  }
+  h3 {
+    margin-top: 1vw;
+    margin-bottom: 1vw;
+  }
+  .category {
+    margin: 0.25vw;
+  }
+  #portfolio {
+    margin-top: 0px;
+    margin-bottom: 3vw;
+  }
+  /*Font sizes, responsive*/
+  #title {
+    font-size: 2.5vw;
+  }
+  #portfolio {
+    font-size: 1.5vw;
+  }
+  h1 {
+    font-size: 3vw;
+  }
+  .textDiv h1 {
+    font-size: 1.75vw;
+  }
+  h3, p {
+    font-size: 1.75vw;
+  }
+  button {
+    font-size: 1.5vw;
+  }
+}
+
+iframe {
+  display: block;
+  margin: 0 auto;
+}
+ul {
+  padding-left: 3vw;
+  list-style-type: none;
+}
+body {
+  background-color: white;
+  font-family: 'Montserrat', sans-serif;
+  font-style: italic;
+}
+p {
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+}
+
+h1 {
+  color: black;
+}
+a {
+  color: black;
+}
+#projectBtn {
+  margin-bottom: 0.25vw;
+  margin-top: 0vw;
+
+}
+#projectCards {
+  width: 100%;
+}
+button {
+  background-color: inherit;
+  border: none;
+  padding: 0px;
+  font-family: inherit;
+  font-style: inherit;
+}
+#menu {
+  margin-top: 50px;
+}
+#portfolio a{
+  font-family: inherit;
+  font-style: inherit;
+  color: grey;
+}
+#portfolio a:hover{
+  text-decoration: none;
+}
+#title {
+  margin-bottom: 0px;
+}
+#title a:hover{
+  text-decoration: none;
+}
+.link:hover {
+  cursor: pointer;
+  text-decoration: line-through;
+}
+.projectCard:hover {
+  cursor: pointer;
+}
+.projectPageImage {
+  width:100%;
+}
+.projectPageImageDiv {
+  width: 100%;
+}
+.textDiv h1 {
+  padding: 10px;
+  margin: 5px;
+  color: white;
+}
+@keyframes slide-up {
+    0% {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
